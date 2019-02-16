@@ -9,19 +9,24 @@
 </head>
 <body>
     <form action="https://formspree.io/slomkas@gmail.com" method="post" class="ui form">
-        <div class="ui input focus">
+        <div class="field">
+            <label for="imie">Imie</label>
             <input type="text" id="imie" placeholder="Imie" required>
         </div>
-        <div class="ui input focus">
+        <div class="field">
+            <label for="nazwisko">Nazwisko</label>
             <input type="text" id="nazwisko" placeholder="Nazwisko" required>
         </div>
-        <div class="ui input focus">
+        <div class="field">
+            <label for="mail">Mail</label>
             <input type="email" id="mail" placeholder="Email" required>
        </div>
-        <div class="ui input focus">
+        <div class="field">
+            <label for="numer">Nr telefonu</label>
             <input type="number" id="numer" placeholder="Nr telefonu" required>
        </div>
-        <div class="ui field">
+        <div class="field">
+            <label for="wiadomosc">Wiadomosc</label>
             <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomosc..."></textarea>
        </div>
        <button class="ui button">Wyślij</button>
