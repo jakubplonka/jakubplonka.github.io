@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 </head>
 <body>
-    <form action="https://formspree.io/slomkas@gmail.com" method="post">
+    <form action="https://formspree.io/slomkas@gmail.com" method="post" class="ui form">
         <div class="ui input focus">
             <input type="text" id="imie" placeholder="Imie" required>
         </div>
@@ -21,9 +21,10 @@
         <div class="ui input focus">
             <input type="number" id="numer" placeholder="Nr telefonu" required>
        </div>
-        <div class="ui input focus">
+        <div class="ui field">
             <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomosc..."></textarea>
        </div>
+       <button class="ui button">Wyślij</button>
     </form>
 </body>
 </html>
