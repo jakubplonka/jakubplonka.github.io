@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="https://formspree.io/slomkas@gmail.com">
+        <input type="text" placeholder="Imię" required>
+        <input type="text" placeholder="Nazwisko" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Nr telefonu" required>
+        <select name="miasto" id="miasto">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+        <input type="radio" id="Męzczyzna" value="Męzczyzna" name="plec" checked><label for="Męzczyzna">Męzczyzna</label>
+        <input type="radio" id="Kobieta" value="Kobieta" name="plec"><label for="Kobieta">Kobieta</label>
+        <input type="checkbox" id="zgoda" value="zgoda" name="zgoda"><label for="zgoda">Zgoda na przetwarzanie danych osobowych</label>
+        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10" placeholder="Wiadomość..." required></textarea>
+        <input type="button" value="Wyślij">
+    </form>
+</body>
+</html>
