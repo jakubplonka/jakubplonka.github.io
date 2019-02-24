@@ -1,12 +1,12 @@
 * {
-    font-size: 10px
+    font-size: 10px;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0 auto;
     padding: 0 auto;
     font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
 }
 
 header {
@@ -37,7 +37,7 @@ span {
 }
 
 hr {
-    width: 20vh;
+    width: 15vh;
     background: #007bff;
     border: 0;
     height: 2px;
@@ -69,6 +69,11 @@ button:focus {
     outline: none;
 }
 
+.dropdown,
+#drop {
+    display: none;
+}
+
 #nav {
     background-color: #007bff;
     position: sticky;
@@ -83,14 +88,14 @@ button:focus {
     padding: 0;
     display: flex;
     list-style-type: none;
-    flex-basis: 50%;
+    flex-basis: 60%;
     align-items: center;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
     flex-wrap: wrap;
 }
 
 
-.nav-list a {
+.nav-item a {
     text-decoration: none;
     height: 10vw;
     text-transform: uppercase;
@@ -100,6 +105,7 @@ button:focus {
     padding: 1rem;
     transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
 
 a:hover {
     color: #007bff;
@@ -121,8 +127,9 @@ h2 {
     font-weight: 300;
     flex-basis: 100%;
     margin-bottom: 20px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
+
 
 .o-mnie-img {
     border: 1px solid transparent;
@@ -131,6 +138,7 @@ h2 {
     align-items: center;
     flex-basis: 100%;
     margin-top: 100px;
+    width: 100%;
 }
 
 .o-mnie-paragraf {
@@ -147,10 +155,6 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#portfolio h2 {
-    padding-top: 50px;
 }
 
 .gallery {
@@ -206,7 +210,7 @@ figcaption:hover {
     height: 100%;
     opacity: 1;
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 10vh;
     font-weight: 100;
 }
 
@@ -221,17 +225,16 @@ figcaption:hover {
 form {
     width: 50%;
     display: flex;
-    margin: 10rem auto;
+    margin: 5rem auto;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 input {
-    height: 2rem;
-    padding: 0.5rem;
-    flex-basis: content;
+    padding: 1rem;
+    flex-basis: 48%;
     width: 47%;
-    border: 1px solid rgb(177, 177, 177)
+    border: 1px solid rgb(177, 177, 177);
 }
 
 input:focus {
@@ -251,21 +254,20 @@ textarea:focus {
 }
 
 form button {
-    margin: auto;
+    margin:  1rem auto;
     padding: 2rem;
-    /* width: 10rem; */
 }
 
 .icons {
     display: flex;
     justify-content: space-around;
-    width: 25%;
+    width: 40vw;
 }
 
 .fab {
     color: #0556ac;
     margin: 4rem auto;
-    font-size: 5rem;
+    font-size: 6vw;
 }
 
 footer {
