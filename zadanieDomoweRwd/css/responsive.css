@@ -1,0 +1,28 @@
+@media all and (max-width: 1170px){
+  header{
+    height: 70vh;
+    align-content: flex-end;
+    justify-content: unset;
+    background: url(../img/man-2.jpg) no-repeat;
+    background-size: auto;
+  }
+
+  h1{
+    width: 60%;
+
+  }
+}
+
+@media all and (max-width: 992px){
+  header {
+    height: 50vh;
+    position: relative;
+  }
+  
+  h1 {
+    width: fit-content;
+    position: absolute;
+    bottom: -35%;
+    color: black;
+  }
+}
