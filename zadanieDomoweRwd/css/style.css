@@ -6,28 +6,25 @@
 }
 
 header {
-  /* position: relative; */
   background: url(../img/man-1.jpg) no-repeat;
   background-size: cover;
-  /* width: 100vh; */
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-h1 {
-  display: flex;
   flex-wrap: wrap;
-  padding: 20px;
-  font-size: 40px;
+}
+header div {
   color: #ffffff;
-  line-height: 50px;
   text-transform: uppercase;
-  width: 60%;
+  padding-left: 50px;
+
+}
+h1 {
+  font-size: 25px;
 }
 
-h1 span {
+h2 {
   flex-basis: 100%;
-  font-size: 25px;
+  font-size: 40px;
 }

@@ -1,15 +1,23 @@
 @media all and (max-width: 1170px){
-  header{
+  header {
     height: 70vh;
-    align-content: flex-end;
     justify-content: unset;
     background: url(../img/man-2.jpg) no-repeat;
-    background-size: auto;
+    background-size: cover;
+    justify-content: center;
   }
 
-  h1{
-    width: 60%;
+  header div {
+    text-align: right;
+    padding-right: 50px;
+  }
 
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 25px;
   }
 }
 
@@ -17,12 +25,26 @@
   header {
     height: 50vh;
     position: relative;
+    background: url(../img/man-1.jpg) no-repeat;
+    background-size: cover;
+    justify-content: unset;
   }
   
-  h1 {
-    width: fit-content;
+  header div {
+    text-align: center;
     position: absolute;
-    bottom: -35%;
-    color: black;
+    bottom: -100px;
+    color: #000000;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 }
