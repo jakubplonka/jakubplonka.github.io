@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  background: url(../img/man-1.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header div {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-left: 50px;
+
+}
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  flex-basis: 100%;
+  font-size: 40px;
+}
